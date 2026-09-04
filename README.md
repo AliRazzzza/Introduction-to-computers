@@ -14,7 +14,9 @@ The history of computers began in the 1800s when Charles Babbage designed the An
 [History Of Computer](https://en.wikipedia.org/wiki/Computer)
 
 ## Example Code
+
 tasks = []
+
 
 def show_tasks():
     if not tasks:
@@ -24,10 +26,12 @@ def show_tasks():
         for i, task in enumerate(tasks, 1):
             print(f"{i}. {task}")
 
+
 def add_task():
     task = input("Enter a new task: ")
     tasks.append(task)
     print("Task added successfully!")
+
 
 def remove_task():
     show_tasks()
@@ -39,6 +43,7 @@ def remove_task():
             print(f"Removed: {removed}")
         except (ValueError, IndexError):
             print("Invalid task number.")
+
 
 while True:
     print("\n--- TO-DO LIST ---")
@@ -57,6 +62,10 @@ while True:
         remove_task()
     elif choice == "4":
         print("Goodbye!")
+        break
+    else:
+        print("Invalid choice. Please try again.")
+
         break
     else:
         print("Invalid choice. Please try again.")
