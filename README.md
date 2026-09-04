@@ -1,1 +1,2 @@
 # Introduction-to-computers
+Computer is an electronic device that processes data according to instructions provided by software programs. It takes input (data), processes it using a central processing unit (CPU), stores information, and produces output (results) to perform various tasks. It is widely used in fields such as education, business, communication, and entertainment for efficient and accurate operations
